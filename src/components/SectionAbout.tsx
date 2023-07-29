@@ -1,6 +1,6 @@
 import { SubTitle } from "./SubTitle";
 
-export function About() {
+export function SectionAbout() {
   return (
     <section
       id="about"

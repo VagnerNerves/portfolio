@@ -1,5 +1,6 @@
-import { About } from "@/components/About";
+import { SectionContact } from "@/components/SectionContact";
 import { Header } from "@/components/Header";
+import { SectionAbout } from "@/components/SectionAbout";
 import { SectionHome } from "@/components/SectionHome";
 
 export default function Home() {
@@ -7,13 +8,11 @@ export default function Home() {
     <main className="">
       <Header />
       <SectionHome />
-      <About />
+      <SectionAbout />
       <div id="project" className="pt-24 min-h-screen">
         <p className="text-zinc-300">Project</p>
       </div>
-      <div id="contact" className="pt-24 min-h-screen">
-        <p className="text-zinc-300">Contact</p>
-      </div>
+      <SectionContact />
     </main>
   );
 }
