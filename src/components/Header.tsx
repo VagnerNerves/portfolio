@@ -35,7 +35,7 @@ export function Header() {
   }, []);
 
   return (
-    <header className="fixed top-0 w-full bg-zinc-950 px-10 py-5 h-24">
+    <header className="fixed top-0 w-full bg-zinc-950 px-10 py-5 h-24 z-50">
       <nav className="h-full flex gap-16 justify-center items-center">
         <Link
           href="#home"
