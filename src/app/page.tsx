@@ -1,3 +1,4 @@
+import { About } from "@/components/About";
 import { Header } from "@/components/Header";
 import { SectionHome } from "@/components/SectionHome";
 
@@ -6,9 +7,7 @@ export default function Home() {
     <main className="">
       <Header />
       <SectionHome />
-      <div id="about" className="pt-24 min-h-screen">
-        <p className="text-zinc-300">About</p>
-      </div>
+      <About />
       <div id="project" className="pt-24 min-h-screen">
         <p className="text-zinc-300">Project</p>
       </div>
