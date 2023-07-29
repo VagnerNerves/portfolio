@@ -4,7 +4,7 @@ export function About() {
   return (
     <section
       id="about"
-      className="w-full pt-48 pb-48 min-h-screen flex justify-center bg-zinc-900 relative"
+      className="w-full pt-48 pb-48 min-h-screen flex justify-center bg-zinc-900 relative overflow-hidden"
     >
       <div className="mx-6 max-w-3xl flex flex-col flex-1 justify-center items-center gap-2 z-10">
         <SubTitle title="Sobre" />
