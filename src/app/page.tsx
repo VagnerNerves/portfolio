@@ -1,12 +1,11 @@
 import { Header } from "@/components/Header";
+import { SectionHome } from "@/components/SectionHome";
 
 export default function Home() {
   return (
     <main className="">
       <Header />
-      <div id="home" className="pt-24 min-h-screen">
-        <p className="text-zinc-300">Portfolio Vagner Nerves</p>
-      </div>
+      <SectionHome />
       <div id="about" className="pt-24 min-h-screen">
         <p className="text-zinc-300">About</p>
       </div>
