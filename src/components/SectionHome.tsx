@@ -1,33 +1,30 @@
 import { CodeBlock } from "@/assets/icons/PhosphorIcons";
+
+import VagnerNervesPhotoPng from "@/assets/vagnerNervesPhoto.png";
+
 import { LinkIcon } from "./LinkIcon";
 import { TypewriterText } from "./TypewriterText";
+import Image from "next/image";
 
 export function SectionHome() {
   return (
     <section
       id="home"
-      className="w-full pt-24 pb-48 min-h-screen flex justify-center"
+      className="w-full pt-48 pb-48 min-h-screen flex justify-center"
     >
-      <div className="max-w-5xl flex flex-1 px-6">
+      <div className="max-w-7xl flex flex-1 px-6">
         <div className="flex flex-col flex-1 justify-center items-center ">
-          <div>
-            <p className="font-normal text-4xl leading-15 text-zinc-50">Oi!</p>
-            <p className="font-normal text-4xl leading-15 text-zinc-50 mr-12">
+          <div className="font-normal text-4xl leading-15 text-zinc-50">
+            <p>Oi!</p>
+            <p className="mr-12">
               Eu sou o <span className="font-medium">Vagner Nerves</span>,
             </p>
 
             <div className="inline-block p-2 bg-blue-950 rounded">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 text-blue-500">
                 <CodeBlock weight="bold" size={28} className="fill-blue-500" />
-                <p className="font-normal text-4xl leading-15 text-blue-500">
-                  desenvolvedor
-                </p>
-                <TypewriterText
-                  text={["mobile", "fullstack"]}
-                  divProps={{
-                    className: "font-normal text-4xl leading-15 text-blue-500",
-                  }}
-                />
+                <p>desenvolvedor</p>
+                <TypewriterText text={["mobile", "fullstack"]} />
               </div>
             </div>
 
@@ -43,8 +40,14 @@ export function SectionHome() {
             </div>
           </div>
         </div>
-        <div className="flex flex-1 justify-center items-center bg-zinc-300">
-          <p>Div2</p>
+        <div className="flex flex-1 justify-center items-center">
+          <div>
+            <Image
+              width="406"
+              src={VagnerNervesPhotoPng}
+              alt="Foto de Vagner Nerves"
+            />
+          </div>
         </div>
       </div>
     </section>
