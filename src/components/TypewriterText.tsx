@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 
 interface TypewriterTextProps {
   text: string[];
-  divProps: HtmlHTMLAttributes<HTMLDivElement>;
+  divProps?: HtmlHTMLAttributes<HTMLDivElement>;
 }
 export function TypewriterText({ text, divProps }: TypewriterTextProps) {
   return (
