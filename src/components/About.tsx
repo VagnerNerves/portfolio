@@ -4,9 +4,9 @@ export function About() {
   return (
     <section
       id="about"
-      className="w-full pt-48 pb-48 min-h-screen flex justify-center bg-zinc-900"
+      className="w-full pt-48 pb-48 min-h-screen flex justify-center bg-zinc-900 relative"
     >
-      <div className="mx-6 max-w-3xl flex flex-col flex-1 justify-center items-center gap-2">
+      <div className="mx-6 max-w-3xl flex flex-col flex-1 justify-center items-center gap-2 z-10">
         <SubTitle title="Sobre" />
         <div className="font-medium text-base text-zinc-300 leading-8 space-y-5">
           <p>
@@ -71,6 +71,9 @@ export function About() {
           </p>
         </div>
       </div>
+
+      <div className="w-72 h-72 rounded-full bg-blue-900 blur-3xl absolute top-60 -left-[122px]" />
+      <div className="w-72 h-72 rounded-full bg-blue-900 blur-3xl absolute bottom-60 -right-[122px]" />
     </section>
   );
 }
