@@ -40,7 +40,7 @@ export function Header() {
         <Link
           href="#home"
           data-active={activeSection === "home"}
-          className="font-semibold text-sm text-zinc-400 data-[active=true]:text-zinc-100"
+          className="font-semibold text-sm text-zinc-400 data-[active=true]:text-zinc-100 hover:text-zinc-100"
         >
           Home
         </Link>
@@ -48,7 +48,7 @@ export function Header() {
         <Link
           href="#about"
           data-active={activeSection === "about"}
-          className="font-semibold text-sm text-zinc-400 data-[active=true]:text-zinc-100"
+          className="font-semibold text-sm text-zinc-400 data-[active=true]:text-zinc-100 hover:text-zinc-100"
         >
           Sobre
         </Link>
@@ -60,7 +60,7 @@ export function Header() {
         <Link
           href="#project"
           data-active={activeSection === "project"}
-          className="font-semibold text-sm text-zinc-400 data-[active=true]:text-zinc-100"
+          className="font-semibold text-sm text-zinc-400 data-[active=true]:text-zinc-100 hover:text-zinc-100"
         >
           Projetos
         </Link>
@@ -68,7 +68,7 @@ export function Header() {
         <Link
           href="#contact"
           data-active={activeSection === "contact"}
-          className="font-semibold text-sm text-zinc-400 data-[active=true]:text-zinc-100"
+          className="font-semibold text-sm text-zinc-400 data-[active=true]:text-zinc-100 hover:text-zinc-100"
         >
           Contato
         </Link>
