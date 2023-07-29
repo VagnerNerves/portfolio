@@ -20,8 +20,15 @@ module.exports = {
         900: "#18181b",
         950: "#09090b",
       },
+      blue: {
+        500: "#3b82f6",
+        950: "#172554",
+      },
     },
     extend: {
+      lineHeight: {
+        15: "3.75rem",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
