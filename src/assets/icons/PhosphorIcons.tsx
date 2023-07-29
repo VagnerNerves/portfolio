@@ -1,5 +1,5 @@
 "use client";
 
-import { CodeBlock, LinkedinLogo, GithubLogo } from "@phosphor-icons/react";
+import { CodeBlock, LinkedinLogo, GithubLogo, At } from "@phosphor-icons/react";
 
-export { CodeBlock, LinkedinLogo, GithubLogo };
+export { CodeBlock, LinkedinLogo, GithubLogo, At };
