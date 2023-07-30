@@ -8,7 +8,7 @@ export function SectionContact() {
     >
       <div className="flex flex-col gap-4">
         <p className="font-bold text-xl text-zinc-50">Entre em contato por:</p>
-        <div className="flex flex-row gap-5">
+        <div className="flex flex-col md:flex-row gap-5">
           <CardLink
             typeIcon="email"
             title="Email"

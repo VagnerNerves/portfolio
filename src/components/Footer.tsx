@@ -4,7 +4,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full py-16 flex justify-center items-center">
+    <footer className="w-full pt-16 pb-40 sm:py-16 flex justify-center items-center">
       <div className="max-w-7xl flex flex-1 flex-col gap-6 px-6 ">
         <div className="flex flex-row justify-between items-center gap-2">
           <p className="font-semibold text-base text-zinc-400">Vagner Nerves</p>

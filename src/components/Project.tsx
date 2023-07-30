@@ -21,7 +21,7 @@ export function Project({
   images,
 }: ProjectProps) {
   return (
-    <div className="group/project py-12 flex flex-1 gap-2">
+    <div className="group/project py-12 flex flex-col lg:flex-row flex-1 gap-9 lg:gap-2">
       <div className="flex flex-1 flex-col relative">
         <div
           className="w-6 h-6 rounded-full bg-zinc-950 border-2 border-blue-800 absolute top-1 -left-[52px] 
@@ -42,7 +42,7 @@ export function Project({
           <ButtonLink typeIcon="github" title="Acesse o Projeto" url={url} />
         </div>
       </div>
-      <div className="min-w-[400px] flex items-center justify-center ">
+      <div className="sm:min-w-[400px] flex items-center justify-center ">
         <Carousel data={images} />
       </div>
     </div>

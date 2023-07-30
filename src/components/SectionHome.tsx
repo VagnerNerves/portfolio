@@ -10,11 +10,11 @@ export function SectionHome() {
   return (
     <section
       id="home"
-      className="w-full pt-48 pb-48 min-h-screen flex justify-center"
+      className="w-full pt-6 pb-32 sm:py-48 min-h-screen flex justify-center"
     >
-      <div className="max-w-7xl flex flex-1 px-6">
+      <div className="max-w-7xl flex flex-1 flex-col md:flex-row gap-9 md:gap-0 px-6">
         <div className="flex flex-col flex-1 justify-center items-center ">
-          <div className="font-normal text-4xl leading-15 text-zinc-50">
+          <div className="font-normal text-lg sm:text-xl lg:text-4xl leading-10 lg:leading-15 text-zinc-50">
             <p>Oi!</p>
             <p className="mr-12">
               Eu sou o <span className="font-medium">Vagner Nerves</span>,

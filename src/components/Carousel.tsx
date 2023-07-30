@@ -19,7 +19,7 @@ export function Carousel({ data }: CarouselProps) {
       effect={"cards"}
       grabCursor={true}
       modules={[EffectCards]}
-      className="w-[260px] h-[560px]"
+      className="w-[140px] h-[290px] sm:w-[260px] sm:h-[560px]"
     >
       {data.map((value, index) => {
         return (
