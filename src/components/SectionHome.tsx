@@ -14,10 +14,11 @@ export function SectionHome() {
     >
       <div className="max-w-7xl flex flex-1 flex-col md:flex-row gap-9 md:gap-0 px-6">
         <div className="flex flex-col flex-1 justify-center items-center ">
-          <div className="font-normal text-lg sm:text-xl lg:text-4xl leading-10 lg:leading-15 text-zinc-50">
+          <div className="font-medium lg:font-normal text-xl sm:text-xl lg:text-4xl leading-10 sm:leading-10 lg:leading-15 text-zinc-50">
             <p>Oi!</p>
-            <p className="mr-12">
-              Eu sou o <span className="font-medium">Vagner Nerves</span>,
+            <p className="mr-14">
+              Eu sou o{" "}
+              <span className="font-bold lg:font-medium">Vagner Nerves</span>,
             </p>
 
             <div className="inline-block p-2 bg-blue-950 rounded">
