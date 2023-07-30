@@ -27,7 +27,7 @@ export function Carousel({ data }: CarouselProps) {
             <Image
               alt={value.alt}
               fill={true}
-              style={{ objectFit: "cover" }}
+              style={{ objectFit: "contain" }}
               src={value.src}
             />
           </SwiperSlide>
