@@ -5,7 +5,7 @@ export function SectionProjects() {
   return (
     <section
       id="projects"
-      className="w-full py-48 min-h-screen flex justify-center"
+      className="w-full py-28 md:py-48 min-h-screen flex justify-center"
     >
       <div className="max-w-7xl flex flex-col flex-1 justify-center items-center px-6 gap-2 ">
         <SubTitle title="Projetos" />
