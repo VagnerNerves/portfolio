@@ -38,6 +38,9 @@ module.exports = {
       lineHeight: {
         15: "3.75rem",
       },
+      backgroundImage: {
+        dashed: "url('/images/dashed.svg')",
+      },
     },
   },
   plugins: [],
