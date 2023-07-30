@@ -6,7 +6,7 @@ import Link from "next/link";
 
 import LogoV from "../assets/logoV.svg";
 
-const sections = ["home", "about", "project", "contact"] as const;
+const sections = ["home", "about", "projects", "contact"] as const;
 type SECTIONS_TYPE = (typeof sections)[number];
 
 export function Header() {
@@ -58,8 +58,8 @@ export function Header() {
         </Link>
 
         <Link
-          href="#project"
-          data-active={activeSection === "project"}
+          href="#projects"
+          data-active={activeSection === "projects"}
           className="font-semibold text-sm text-zinc-400 data-[active=true]:text-zinc-100 hover:text-zinc-100"
         >
           Projetos

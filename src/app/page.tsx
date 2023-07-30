@@ -2,6 +2,7 @@ import { SectionContact } from "@/components/SectionContact";
 import { Header } from "@/components/Header";
 import { SectionAbout } from "@/components/SectionAbout";
 import { SectionHome } from "@/components/SectionHome";
+import { SectionProjects } from "@/components/SectionProjects";
 
 export default function Home() {
   return (
@@ -9,9 +10,7 @@ export default function Home() {
       <Header />
       <SectionHome />
       <SectionAbout />
-      <div id="project" className="pt-24 min-h-screen">
-        <p className="text-zinc-300">Project</p>
-      </div>
+      <SectionProjects />
       <SectionContact />
     </main>
   );
