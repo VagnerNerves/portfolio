@@ -44,7 +44,7 @@ export function Header() {
           data-active={activeSection === "home"}
           className="font-semibold text-xs sm:text-sm text-zinc-400 data-[active=true]:text-zinc-100 hover:text-zinc-100 flex flex-col justify-center items-center"
         >
-          <House weight="bold" size={32} className=" sm:hidden" />
+          <House weight="bold" size={28} className=" sm:hidden" />
           Home
         </Link>
 
@@ -53,7 +53,7 @@ export function Header() {
           data-active={activeSection === "about"}
           className="font-semibold text-xs sm:text-sm text-zinc-400 data-[active=true]:text-zinc-100 hover:text-zinc-100 flex flex-col justify-center items-center"
         >
-          <User weight="bold" size={32} className=" sm:hidden" />
+          <User weight="bold" size={28} className=" sm:hidden" />
           Sobre
         </Link>
 
@@ -66,7 +66,7 @@ export function Header() {
           data-active={activeSection === "projects"}
           className="font-semibold text-xs sm:text-sm text-zinc-400 data-[active=true]:text-zinc-100 hover:text-zinc-100 flex flex-col justify-center items-center"
         >
-          <CodeBlock weight="bold" size={32} className=" sm:hidden" />
+          <CodeBlock weight="bold" size={28} className=" sm:hidden" />
           Projetos
         </Link>
 
@@ -75,7 +75,7 @@ export function Header() {
           data-active={activeSection === "contact"}
           className="font-semibold text-xs sm:text-sm text-zinc-400 data-[active=true]:text-zinc-100 hover:text-zinc-100 flex flex-col justify-center items-center"
         >
-          <At weight="bold" size={32} className=" sm:hidden" />
+          <At weight="bold" size={28} className=" sm:hidden" />
           Contato
         </Link>
       </nav>
