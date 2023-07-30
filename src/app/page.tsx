@@ -3,6 +3,7 @@ import { Header } from "@/components/Header";
 import { SectionAbout } from "@/components/SectionAbout";
 import { SectionHome } from "@/components/SectionHome";
 import { SectionProjects } from "@/components/SectionProjects";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <SectionAbout />
       <SectionProjects />
       <SectionContact />
+      <Footer />
     </main>
   );
 }
