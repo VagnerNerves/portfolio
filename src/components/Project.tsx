@@ -42,7 +42,7 @@ export function Project({
           <ButtonLink typeIcon="github" title="Acesse o Projeto" url={url} />
         </div>
       </div>
-      <div className="sm:min-w-[400px] flex items-center justify-center ">
+      <div className="sm:min-w-[400px] flex items-center justify-center overflow-hidden">
         <Carousel data={images} />
       </div>
     </div>
