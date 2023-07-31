@@ -1,7 +1,7 @@
-import { LANGUAGE } from "../storageConfig";
+import { LANGUAGE } from '../storageConfig'
 
-import { languageTypes } from "@/translations/types";
+import { languageTypes } from '@/translations/types'
 
 export function languageSave(translation: languageTypes) {
-  localStorage.setItem(LANGUAGE, translation);
+  localStorage.setItem(LANGUAGE, translation)
 }
