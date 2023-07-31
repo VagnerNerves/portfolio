@@ -1,12 +1,19 @@
-import { CodeBlock } from "@/assets/icons/PhosphorIcons";
+'use client'
 
-import VagnerNervesPhotoPng from "@/assets/vagnerNervesPhoto.png";
+import Image from 'next/image'
+import { useTranslation } from '@/hooks/useTranslation'
 
-import { LinkIcon } from "./LinkIcon";
-import { TypewriterText } from "./TypewriterText";
-import Image from "next/image";
+import { CodeBlock } from '@/assets/icons/PhosphorIcons'
+
+import VagnerNervesPhotoPng from '@/assets/vagnerNervesPhoto.png'
+
+import { LinkIcon } from './LinkIcon'
+import { TypewriterText } from './TypewriterText'
 
 export function SectionHome() {
+  const { t, language } = useTranslation()
+  const translation = t()
+
   return (
     <section
       id="home"
@@ -15,29 +22,38 @@ export function SectionHome() {
       <div className="max-w-7xl flex flex-1 flex-col md:flex-row gap-9 md:gap-0 px-6">
         <div className="flex flex-col flex-1 justify-center items-center ">
           <div className="font-medium lg:font-normal text-xl sm:text-xl lg:text-4xl leading-10 sm:leading-10 lg:leading-15 text-zinc-50">
-            <p>Oi!</p>
+            <p>{translation.sectionHome.text1}</p>
             <p className="mr-14">
-              Eu sou o{" "}
-              <span className="font-bold lg:font-medium">Vagner Nerves</span>,
+              {translation.sectionHome.text2}{' '}
+              <span className="font-bold lg:font-medium">
+                {translation.name}
+              </span>
+              ,
             </p>
 
             <div className="inline-block p-2 bg-blue-950 rounded">
               <div className="flex items-center gap-2 text-blue-500">
                 <CodeBlock weight="bold" size={28} className="fill-blue-500" />
-                <p>desenvolvedor</p>
-                <TypewriterText text={["mobile", "fullstack"]} />
+                {language === 'pt-BR' ? (
+                  <>
+                    <p>{translation.sectionHome.text3}</p>
+                    <TypewriterText text={translation.sectionHome.skills} />
+                  </>
+                ) : (
+                  <>
+                    <TypewriterText text={translation.sectionHome.skills} />
+                    <p>{translation.sectionHome.text3}</p>
+                  </>
+                )}
               </div>
             </div>
 
             <div className="flex mt-7 gap-4 justify-center items-center">
               <LinkIcon
-                href="https://www.linkedin.com/in/vagnernervessantos/"
+                href={translation.urlLinks.linkedin}
                 typeIcons="linkedin"
               />
-              <LinkIcon
-                href="https://github.com/VagnerNerves"
-                typeIcons="github"
-              />
+              <LinkIcon href={translation.urlLinks.github} typeIcons="github" />
             </div>
           </div>
         </div>
@@ -46,11 +62,11 @@ export function SectionHome() {
             <Image
               width="406"
               src={VagnerNervesPhotoPng}
-              alt="Foto de Vagner Nerves"
+              alt={translation.sectionHome.altPhoto}
             />
           </div>
         </div>
       </div>
     </section>
-  );
+  )
 }
