@@ -1,5 +1,5 @@
 interface SubTitleProps {
-  title: string;
+  title: string
 }
 export function SubTitle({ title }: SubTitleProps) {
   return (
@@ -8,5 +8,5 @@ export function SubTitle({ title }: SubTitleProps) {
         <h2 className="font-bold text-xl text-blue-500">{title}</h2>
       </div>
     </div>
-  );
+  )
 }

@@ -1,4 +1,4 @@
-"use client";
+'use client'
 
 import {
   CodeBlock,
@@ -6,7 +6,7 @@ import {
   GithubLogo,
   At,
   House,
-  User,
-} from "@phosphor-icons/react";
+  User
+} from '@phosphor-icons/react'
 
-export { CodeBlock, LinkedinLogo, GithubLogo, At, House, User };
+export { CodeBlock, LinkedinLogo, GithubLogo, At, House, User }

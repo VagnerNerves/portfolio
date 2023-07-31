@@ -1,11 +1,11 @@
-import Link from "next/link";
+import Link from 'next/link'
 
-import { GithubLogo } from "@/assets/icons/PhosphorIcons";
+import { GithubLogo } from '@/assets/icons/PhosphorIcons'
 
 interface ButtonProps {
-  typeIcon: "github";
-  title: string;
-  url: string;
+  typeIcon: 'github'
+  title: string
+  url: string
 }
 export function ButtonLink({ typeIcon, title, url }: ButtonProps) {
   return (
@@ -15,7 +15,7 @@ export function ButtonLink({ typeIcon, title, url }: ButtonProps) {
         target="_blank"
         className="group/link px-4 py-2 flex justify-center items-center gap-2 bg-zinc-950 rounded border border-zinc-800 hover:border-zinc-700 "
       >
-        {typeIcon === "github" && (
+        {typeIcon === 'github' && (
           <GithubLogo
             weight="bold"
             size={16}
@@ -28,5 +28,5 @@ export function ButtonLink({ typeIcon, title, url }: ButtonProps) {
         </p>
       </Link>
     </div>
-  );
+  )
 }
