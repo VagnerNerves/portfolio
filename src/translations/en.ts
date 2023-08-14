@@ -13,6 +13,11 @@ export const enTranslation: translationsProps = {
     projects: 'Projects',
     contact: 'Contact'
   },
+  floatingButtons: {
+    buttonOptions: 'Options',
+    buttonTranslate: 'Translate to Portuguese Brazil.',
+    altImageTranslate: 'Flag of Brazil'
+  },
   sectionHome: {
     text1: 'Hi!',
     text2: 'I am',

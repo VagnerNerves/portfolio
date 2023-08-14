@@ -8,6 +8,11 @@ export type translationsProps = {
     github: string
     email: string
   }
+  floatingButtons: {
+    buttonOptions: string
+    buttonTranslate: string
+    altImageTranslate: string
+  }
   header: {
     home: string
     about: string

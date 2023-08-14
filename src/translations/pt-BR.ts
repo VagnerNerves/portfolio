@@ -13,6 +13,11 @@ export const ptBRTranslation: translationsProps = {
     projects: 'Projetos',
     contact: 'Contato'
   },
+  floatingButtons: {
+    buttonOptions: 'Opções',
+    buttonTranslate: 'Traduzir para o Inglês.',
+    altImageTranslate: 'Bandeira dos Estados Unidos'
+  },
   sectionHome: {
     text1: 'Oi!',
     text2: 'Eu sou o',
