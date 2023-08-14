@@ -39,7 +39,9 @@ export function TranslationContextProvider({
   }
 
   function searchNavigationLanguage() {
-    navigator.language === 'pt-BR' ? setLanguage('pt-BR') : setLanguage('en')
+    navigator.language === 'pt-BR' || navigator.language.startsWith('pt')
+      ? setLanguage('pt-BR')
+      : setLanguage('en')
   }
 
   useEffect(() => {
