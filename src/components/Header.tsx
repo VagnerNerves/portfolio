@@ -16,7 +16,7 @@ type SECTIONS_TYPE = (typeof sections)[number]
 export function Header() {
   const [activeSection, setActiveSection] = useState<SECTIONS_TYPE>('home')
 
-  const { t, language, setLanguage } = useTranslation()
+  const { t } = useTranslation()
   const translation = t()
 
   function handleScroll() {
