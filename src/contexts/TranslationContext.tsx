@@ -7,10 +7,11 @@ import { languageTypes, translationsProps } from '@/translations/types'
 import { enTranslation } from '@/translations/en'
 import { ptBRTranslation } from '@/translations/pt-BR'
 import { languageGet } from '@/storage/language/languageGet'
+import { languageSave } from '@/storage/language/languageSave'
 
 export type TranslationContextDataProps = {
   language: languageTypes | undefined
-  setLanguage: (language: languageTypes) => void
+  saveLanguage: (language: languageTypes) => void
   t: () => translationsProps
 }
 
@@ -26,6 +27,11 @@ export function TranslationContextProvider({
   children
 }: TranslationContextProviderProps) {
   const [language, setLanguage] = useState<languageTypes>('' as languageTypes)
+
+  function saveLanguage(language: languageTypes) {
+    languageSave(language)
+    setLanguage(language)
+  }
 
   function t(): translationsProps {
     switch (language) {
@@ -53,7 +59,7 @@ export function TranslationContextProvider({
   }, [])
 
   return (
-    <TranslationContext.Provider value={{ language, setLanguage, t }}>
+    <TranslationContext.Provider value={{ language, saveLanguage, t }}>
       {children}
     </TranslationContext.Provider>
   )

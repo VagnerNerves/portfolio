@@ -9,11 +9,11 @@ import flagUsPng from '@/assets/iconFlagUS.png'
 export function FloatingButtons() {
   const [isOptionsVisible, setIsOptionsVisible] = useState<boolean>(false)
 
-  const { t, language, setLanguage } = useTranslation()
+  const { t, language, saveLanguage } = useTranslation()
   const translation = t()
 
   function handleAlterLanguage() {
-    setLanguage(language === 'pt-BR' ? 'en' : 'pt-BR')
+    saveLanguage(language === 'pt-BR' ? 'en' : 'pt-BR')
     setIsOptionsVisible(false)
   }
 
