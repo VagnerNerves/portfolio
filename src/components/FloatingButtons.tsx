@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 import { useTranslation } from '@/hooks/useTranslation'
 
-import flagBrazilPng from '@/assets/iconflagBrazil.png'
-import flagUsPng from '@/assets/iconflagUS.png'
+import flagBrazilPng from '../assets/iconflagBrazil.png'
+import flagUsPng from '../assets/iconflagUS.png'
 
 export function FloatingButtons() {
   const [isOptionsVisible, setIsOptionsVisible] = useState<boolean>(false)
