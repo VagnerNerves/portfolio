@@ -44,14 +44,6 @@ export function Header() {
   return (
     <header className="fixed bottom-0 sm:top-0 w-full px-2 py-5 h-24 z-50 bg-zinc-950 ">
       <nav className="h-full flex justify-around sm:justify-center items-center sm:gap-16 ">
-        {/* <button
-          className="text-zinc-100"
-          onClick={() =>
-            language === 'pt-BR' ? setLanguage('en') : setLanguage('pt-BR')
-          }
-        >
-          clique aqui
-        </button> */}
         <Link
           href="#home"
           data-active={activeSection === 'home'}
