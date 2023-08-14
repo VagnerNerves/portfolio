@@ -43,6 +43,7 @@ export function FloatingButtons() {
               alt={translation.floatingButtons.altImageTranslate}
               width={34}
               className="filter grayscale hover:grayscale-0"
+              priority={true}
             />
           </button>
 
