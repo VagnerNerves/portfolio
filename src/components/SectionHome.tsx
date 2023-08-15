@@ -61,6 +61,7 @@ export function SectionHome() {
           <div>
             <Image
               width="406"
+              priority={true}
               src={VagnerNervesPhotoPng}
               alt={translation.sectionHome.altPhoto}
             />
