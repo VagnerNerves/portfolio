@@ -61,6 +61,7 @@ export function TranslationContextProvider({
         metaDescription.setAttribute('content', translation.descriptionPage)
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [language])
 
   useEffect(() => {
