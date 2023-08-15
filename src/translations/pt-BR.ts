@@ -37,7 +37,7 @@ export const ptBRTranslation: translationsProps = {
       },
       {
         beforeSpan: '',
-        span: 'Estou me especialidade no momento no desenvolvimento mobile, e minhas habilidades inclui HTML, CSS, JavaScript, React Native e diversas bibliotecas e frameworks.',
+        span: 'Estou me especializando no momento no desenvolvimento mobile, e minhas habilidades inclui HTML, CSS, JavaScript, React Native e diversas bibliotecas e frameworks.',
         afterSpan:
           'Adoro transformar designs em interfaces interativas e envolventes, focadas na usabilidade e acessibilidade. Acredito que a experiência do usuário é um pilar fundamental para o sucesso de qualquer projeto, e estou sempre em busca de aprimorar essa habilidade.',
         typeSpan: '1'
