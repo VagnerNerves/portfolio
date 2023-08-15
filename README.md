@@ -25,7 +25,11 @@ I developed my portfolio using React and Next.js (version 13). The project is in
 
 ## 🎥 Implementation Video
 
-In the GitHub edit, drag the video that it already puts on github itself.
+
+
+https://github.com/VagnerNerves/portfolio/assets/40831841/735669fb-0318-4c74-89ad-e89740578849
+
+
 
 ## 🎨 Layout
 
