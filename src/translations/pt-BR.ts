@@ -2,6 +2,9 @@ import { translationsProps } from './types'
 
 export const ptBRTranslation: translationsProps = {
   name: 'Vagner Nerves',
+  titlePage: 'Vagner Nerves - Portifólio',
+  descriptionPage:
+    'Portifólio de Vagner Nerves contendo seus projetos na are de desenvolvimento de sistemas.',
   urlLinks: {
     linkedin: 'https://www.linkedin.com/in/vagnernervessantos/',
     github: 'https://github.com/VagnerNerves',

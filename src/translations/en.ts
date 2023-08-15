@@ -2,6 +2,9 @@ import { translationsProps } from './types'
 
 export const enTranslation: translationsProps = {
   name: 'Vagner Nerves',
+  titlePage: 'Vagner Nerves - Portfolio',
+  descriptionPage:
+    'Portfolio of Vagner Nerves showcasing his projects in the field of systems development.',
   urlLinks: {
     linkedin: 'https://www.linkedin.com/in/vagnernervessantos/',
     github: 'https://github.com/VagnerNerves',

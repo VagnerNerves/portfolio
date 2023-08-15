@@ -51,6 +51,19 @@ export function TranslationContextProvider({
   }
 
   useEffect(() => {
+    if (!!language) {
+      const translation = t()
+
+      document.title = translation.titlePage
+
+      const metaDescription = document.querySelector('meta[name="description"]')
+      if (metaDescription) {
+        metaDescription.setAttribute('content', translation.descriptionPage)
+      }
+    }
+  }, [language])
+
+  useEffect(() => {
     const languageStorage = languageGet() as languageTypes
 
     !!languageStorage

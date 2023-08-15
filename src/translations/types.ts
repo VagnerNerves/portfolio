@@ -3,6 +3,8 @@ export const languagesSupported: languageTypes[] = ['en', 'pt-BR']
 
 export type translationsProps = {
   name: string
+  titlePage: string
+  descriptionPage: string
   urlLinks: {
     linkedin: string
     github: string
