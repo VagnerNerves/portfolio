@@ -27,6 +27,7 @@ export function Carousel({ data }: CarouselProps) {
             <Image
               alt={value.alt}
               fill={true}
+              sizes="100%"
               style={{ objectFit: 'contain' }}
               src={value.src}
             />
