@@ -31,7 +31,7 @@ In the GitHub edit, drag the video that it already puts on github itself.
 
 Layout developed by [Vagner Nerves](https://www.linkedin.com/in/vagnernervessantos/)
 
-[![Layout in Figma](https://github.com/VagnerNerves/default-readme/blob/main/assets/layout-in-figma.svg)](https://www.figma.com/file/2YwWYM0V1Ia7d4ulLwC5v8/Portif%C3%B3lio-Vagner-Nerves?type=design&node-id=166%3A2&mode=design&t=FWRVhqeAA7IUqOVH-1)
+[![Layout in Figma](https://github.com/VagnerNerves/default-readme/blob/main/assets/layout-in-figma.svg)](https://www.figma.com/file/2YwWYM0V1Ia7d4ulLwC5v8/Portif%C3%B3lio-Vagner-Nerves?type=design&node-id=1%3A2&mode=design&t=FWRVhqeAA7IUqOVH-1)
 
 <!-- ## 👏 Learning and more Implementations
 
