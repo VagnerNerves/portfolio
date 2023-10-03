@@ -25,11 +25,7 @@ I developed my portfolio using React and Next.js (version 13). The project is in
 
 ## 🎥 Implementation Video
 
-
-
 https://github.com/VagnerNerves/portfolio/assets/40831841/735669fb-0318-4c74-89ad-e89740578849
-
-
 
 ## 🎨 Layout
 
@@ -48,7 +44,7 @@ Describe what you learned and implemented in the project. -->
 - [x] [TypeScript](https://www.typescriptlang.org/)
 - [x] [Tailwindcss](https://tailwindcss.com/)
 - [x] [Phosphor Icons](https://phosphoricons.com/)
-- [x] [swiper](https://swiperjs.com/)
+- [x] [React Player](https://github.com/CookPete/react-player)
 - [x] [typewriter-effect](https://www.npmjs.com/package/typewriter-effect)
 
 ## 📂 Folder Structure
