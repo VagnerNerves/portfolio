@@ -47,10 +47,7 @@ export type translationsProps = {
       description: string[]
       technologies: string[]
       url: string
-      images: {
-        alt: string
-        src: string
-      }[]
+      urlVideo: string
     }[]
   }
   sectionContact: {

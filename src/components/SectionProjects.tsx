@@ -26,7 +26,7 @@ export function SectionProjects() {
                 description={value.description}
                 technologies={value.technologies}
                 url={value.url}
-                images={value.images}
+                urlVideo={value.urlVideo}
               />
             ))}
           </div>

@@ -1,8 +1,9 @@
 'use client'
 
+import ReactPlayer from 'react-player'
+
 import { useTranslation } from '@/hooks/useTranslation'
 import { ButtonLink } from './ButtonLink'
-import { Carousel } from './Carousel'
 
 interface ProjectProps {
   title: string
@@ -10,10 +11,7 @@ interface ProjectProps {
   description: string[]
   technologies: string[]
   url: string
-  images: {
-    alt: string
-    src: string
-  }[]
+  urlVideo: string
 }
 export function Project({
   title,
@@ -21,13 +19,13 @@ export function Project({
   description,
   technologies,
   url,
-  images
+  urlVideo
 }: ProjectProps) {
   const { t } = useTranslation()
   const translation = t()
 
   return (
-    <div className="group/project py-12 flex flex-col lg:flex-row flex-1 gap-9 lg:gap-2">
+    <div className="group/project py-12 flex flex-col lg:flex-row flex-1 gap-9">
       <div className="flex flex-1 flex-col relative">
         <div
           className="w-6 h-6 rounded-full bg-zinc-950 border-2 border-blue-800 absolute top-1 -left-[52px]
@@ -54,9 +52,13 @@ export function Project({
           />
         </div>
       </div>
-      <div className="sm:min-w-[400px] flex items-center justify-center overflow-hidden">
-        <Carousel data={images} />
-      </div>
+      {urlVideo && (
+        <div className="sm:min-w-[300px] flex items-center justify-center overflow-hidden">
+          <div className="sm:w-[320px] sm:h-[570px] w-[269px] h-[519px] rounded-2xl overflow-hidden">
+            <ReactPlayer url={urlVideo} width="100%" height="100%" controls />
+          </div>
+        </div>
+      )}
     </div>
   )
 }

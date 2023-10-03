@@ -83,22 +83,30 @@ export const ptBRTranslation: translationsProps = {
     projects: [
       {
         title: 'Marketspace',
-        date: '(Julho 2023 - Em andamento)',
+        date: '(Julho 2023 - Outubro 2023)',
         description: [
-          '...Projeto em construção...',
-          'O projeto Marketspace está em desenvolvimento utilizando React Native e tem como objetivo criar um aplicativo de marketplace. Neste aplicativo, os usuários poderão realizar login e cadastrar seus anúncios para venda ou procurar por produtos para comprar.',
+          'O projeto Marketspace foi desenvolvido em React Native, é um aplicativo de marketplace que permite aos usuários realizar login e cadastrar seus anúncios para venda ou procurar por produtos para comprar.',
           'Uma das principais funcionalidades do aplicativo é a possibilidade de entrar em contato com o proprietário do anúncio diretamente pelo WhatsApp para efetuar a compra. Isso facilita a comunicação entre compradores e vendedores, tornando o processo mais rápido e eficiente.',
-          'Os usuários também têm a capacidade de gerenciar seus próprios anúncios. Eles poderão editar as informações dos anúncios, caso seja necessário atualizar detalhes ou preços. Além disso, terão a opção de desativar anúncios quando os produtos forem vendidos, mantendo a plataforma atualizada e livre de anúncios não mais disponíveis.',
-          '...Projeto em construção...'
+          'Os usuários também têm a capacidade de gerenciar seus próprios anúncios. Eles poderão editar as informações dos anúncios, caso seja necessário atualizar detalhes ou preços. Além disso, terão a opção de desativar anúncios quando os produtos forem vendidos, mantendo a plataforma atualizada e livre de anúncios não mais disponíveis.'
         ],
-        technologies: ['React Native', 'Expo', 'TypeScript', 'NativeBase'],
+        technologies: [
+          'React Native',
+          'Expo',
+          'TypeScript',
+          'NativeBase',
+          'React Navigation',
+          'Axios',
+          'expo ImagePicker',
+          'React Hook Form',
+          'Yup',
+          'AsyncStorage',
+          'Phosphor Icons',
+          'React Native Modalize',
+          'React Native Portalize',
+          'React Native Reanimated Carousel'
+        ],
         url: 'https://github.com/VagnerNerves/marketspace-ignitern',
-        images: [
-          {
-            alt: 'Imagem da tela de abertura',
-            src: '/images/project-marketspace/1-splashscreen-project-marketspace-min.png'
-          }
-        ]
+        urlVideo: 'https://www.youtube.com/watch?v=_sWtr9fkO0s'
       },
 
       {
@@ -123,68 +131,7 @@ export const ptBRTranslation: translationsProps = {
           'AsyncStorage'
         ],
         url: 'https://github.com/VagnerNerves/ignitegym-rn',
-        images: [
-          {
-            alt: 'Imagem da tela de abertura',
-            src: '/images/project-ignite-gym/1-splashscreen-project-ignit-gym-min.png'
-          },
-          {
-            alt: 'Imagem da tela de login',
-            src: '/images/project-ignite-gym/2-screenlogin-project-ignit-gym-min.png'
-          },
-          {
-            alt: 'Imagem da validação do login',
-            src: '/images/project-ignite-gym/3-validatiologin-project-ignit-gym-min.png'
-          },
-          {
-            alt: 'Imagem da tela de criar nova conta',
-            src: '/images/project-ignite-gym/4-screencreatedaccount-project-ignit-gym-min.png'
-          },
-          {
-            alt: 'Imagem da tela Home',
-            src: '/images/project-ignite-gym/5-screenhome-project-ignit-gym-min.png'
-          },
-          {
-            alt: 'Imagem do menu de navegação da tela Home',
-            src: '/images/project-ignite-gym/6-navigationmenuonhome-project-ignit-gym-min.png'
-          },
-          {
-            alt: 'Imagem navegando pelos exercicios',
-            src: '/images/project-ignite-gym/7-navigationexercise-project-ignit-gym-min.png'
-          },
-          {
-            alt: 'Imagem navegando pelos exercicios',
-            src: '/images/project-ignite-gym/8-navigationexercise-project-ignit-gym-min.png'
-          },
-          {
-            alt: 'Imagem da tela do histórico de exercicios',
-            src: '/images/project-ignite-gym/9-screenhistoryexercises-project-ignit-gym-min.png'
-          },
-          {
-            alt: 'Image Screen Perfil',
-            src: '/images/project-ignite-gym/10-screenperfil-project-ignit-gym-min.png'
-          },
-          {
-            alt: 'Image Select Image Perfil',
-            src: '/images/project-ignite-gym/11-selectimageperfil-ignit-gym-min.png'
-          },
-          {
-            alt: 'Image Ajusted Image Perfil',
-            src: '/images/project-ignite-gym/12-selectimageperfil-ignit-gym-min.png'
-          },
-          {
-            alt: 'Image Save on Perfil',
-            src: '/images/project-ignite-gym/13-imagesaveonperfil-ignit-gym-min.png'
-          },
-          {
-            alt: 'Image Home Updated Image',
-            src: '/images/project-ignite-gym/14-homeupdateimageperfil-ignit-gym-min.png'
-          },
-          {
-            alt: 'Image Register Exercise',
-            src: '/images/project-ignite-gym/15-registerexercises-ignit-gym-min.png'
-          }
-        ]
+        urlVideo: ''
       },
 
       {
@@ -212,72 +159,7 @@ export const ptBRTranslation: translationsProps = {
           'date-fns'
         ],
         url: 'https://github.com/VagnerNerves/dailydiet-ignitern',
-        images: [
-          {
-            alt: 'Image Splash Screen',
-            src: '/images/project-daily-diet/1-splashscreen-project-daily-diet-min.png'
-          },
-          {
-            alt: 'Image Screen Home',
-            src: '/images/project-daily-diet/2-screenhome-project-daily-diet-min.png'
-          },
-          {
-            alt: 'Image Screen New Meal',
-            src: '/images/project-daily-diet/3-screennewmeal-project-daily-diet-min.png'
-          },
-          {
-            alt: 'Image Select Date on New Meal',
-            src: '/images/project-daily-diet/4-selectdateonnewmeal-project-daily-diet-min.png'
-          },
-          {
-            alt: 'Image Marke is Diet on New Meal',
-            src: '/images/project-daily-diet/5-markeisdietonnewmeal-project-daily-diet-min.png'
-          },
-          {
-            alt: 'Image Screen is not Diet',
-            src: '/images/project-daily-diet/6-screennotisdiet-project-daily-diet-min.png'
-          },
-          {
-            alt: 'Image Screen Home With Meal',
-            src: '/images/project-daily-diet/7-screenhomewithmeal-project-daily-diet-min.png'
-          },
-          {
-            alt: 'Image Screen New Meal is Diet',
-            src: '/images/project-daily-diet/8-screennewmealisdiet-project-daily-diet-min.png'
-          },
-          {
-            alt: 'Image Screen is Diet',
-            src: '/images/project-daily-diet/9-screenisdiet-project-daily-diet-min.png'
-          },
-          {
-            alt: 'Image Screen Home With Meals',
-            src: '/images/project-daily-diet/10-screenhomewithmeals-project-daily-diet-min.png'
-          },
-          {
-            alt: 'Image Screen Statistics',
-            src: '/images/project-daily-diet/11-screenstatistics-project-daily-diet-min.png'
-          },
-          {
-            alt: 'Image Screen Home With Statistics Positive',
-            src: '/images/project-daily-diet/12-screenhomewithstatisticspositive-project-daily-diet-min.png'
-          },
-          {
-            alt: 'Image Screen Statistics',
-            src: '/images/project-daily-diet/13-screenstatistic-project-daily-diet-min.png'
-          },
-          {
-            alt: 'Image Screen View Meal',
-            src: '/images/project-daily-diet/14-screenviewmeal-daily-diet-min.png'
-          },
-          {
-            alt: 'Image Screen Delete Meal',
-            src: '/images/project-daily-diet/15-screendeletemeal-daily-diet-min.png'
-          },
-          {
-            alt: 'Image Screen View Meal Positive',
-            src: '/images/project-daily-diet/16-screenviewmealpositive-daily-diet-min.png'
-          }
-        ]
+        urlVideo: ''
       },
 
       {
@@ -299,52 +181,7 @@ export const ptBRTranslation: translationsProps = {
           'AsyncStorage'
         ],
         url: 'https://github.com/VagnerNerves/igniteteams',
-        images: [
-          {
-            alt: 'Image Splash Screen',
-            src: '/images/project-ignite-teams/1-splashscreen-project-ignit-teams-min.png'
-          },
-          {
-            alt: 'Image Screen Home',
-            src: '/images/project-ignite-teams/2-screenhome-project-ignit-teams-min.png'
-          },
-          {
-            alt: 'Image Register Group',
-            src: '/images/project-ignite-teams/3-registergroup-project-ignit-teams-min.png'
-          },
-          {
-            alt: 'Image Group Registered',
-            src: '/images/project-ignite-teams/4-groupregistered-project-ignit-teams-min.png'
-          },
-          {
-            alt: 'Image Register Team',
-            src: '/images/project-ignite-teams/5-registerteams-project-ignit-teams-min.png'
-          },
-          {
-            alt: 'Image Write Team',
-            src: '/images/project-ignite-teams/6-writeteams-project-ignit-teams-min.png'
-          },
-          {
-            alt: 'Image Team Registered',
-            src: '/images/project-ignite-teams/7-teamsregistered-project-ignit-teams-min.png'
-          },
-          {
-            alt: 'Image Other Team Registered',
-            src: '/images/project-ignite-teams/8-otherteamsregistered-project-ignit-teams-min.png'
-          },
-          {
-            alt: 'Image Add Person on the Team',
-            src: '/images/project-ignite-teams/9-addpersononteam-project-ignit-teams-min.png'
-          },
-          {
-            alt: 'Image Screen Team',
-            src: '/images/project-ignite-teams/10-screenteam-project-ignit-teams-min.png'
-          },
-          {
-            alt: 'Image Screen Home With Groups',
-            src: '/images/project-ignite-teams/11-screenhomewithgroups-project-ignit-teams-min.png'
-          }
-        ]
+        urlVideo: ''
       },
 
       {
@@ -364,44 +201,7 @@ export const ptBRTranslation: translationsProps = {
           'PhosPhor Icons'
         ],
         url: 'https://github.com/VagnerNerves/calculator-boracodar',
-        images: [
-          {
-            alt: 'Image Splash Screen',
-            src: '/images/project-calculator/1-splashscreen-project-calculator-min.png'
-          },
-          {
-            alt: 'Image Screen Inicial',
-            src: '/images/project-calculator/2-screeninicial-project-calculator-min.png'
-          },
-          {
-            alt: 'Image Writer Number',
-            src: '/images/project-calculator/3-writenumber-project-calculator-min.png'
-          },
-          {
-            alt: 'Image Sum Number',
-            src: '/images/project-calculator/4-sumnumber-project-calculator-min.png'
-          },
-          {
-            alt: 'Image Result Sum Number',
-            src: '/images/project-calculator/5-resultsumnumber-project-calculator-min.png'
-          },
-          {
-            alt: 'Image Hitoric Calculated',
-            src: '/images/project-calculator/6-historicthecalculate-project-calculator-min.png'
-          },
-          {
-            alt: 'Image Number With Dot',
-            src: '/images/project-calculator/7-numberwithdot-project-calculator-min.png'
-          },
-          {
-            alt: 'Image Sum Number With Dot',
-            src: '/images/project-calculator/8-sumnumberwithdot-project-calculator-min.png'
-          },
-          {
-            alt: 'Image Result Sum Number With Dot',
-            src: '/images/project-calculator/9-resultsumnumberwithdot-project-calculator-min.png'
-          }
-        ]
+        urlVideo: ''
       }
     ]
   },
