@@ -83,15 +83,28 @@ export const enTranslation: translationsProps = {
     projects: [
       {
         title: 'Marketspace',
-        date: '(July 2023 - In progress)',
+        date: '(July 2023 - October 2023)',
         description: [
-          '...Project under construction...',
-          'The Marketspace project is under development using React Native and aims to create a marketplace application. In this app, users will be able to log in, list their ads for sale, or search for products to buy.',
-          'One of the main features of the app is the ability to directly contact the ad owner through WhatsApp to make the purchase. This facilitates communication between buyers and sellers, making the process faster and more efficient.',
-          "Users also have the ability to manage their own ads. They will be able to edit ad information if it's necessary to update details or prices. Additionally, they will have the option to deactivate ads when products are sold, keeping the platform updated and free from no longer available ads.",
-          '...Project under construction...'
+          'The Marketspace project was developed in React Native. It is a marketplace application that allows users to log in, create their advertisements for sale, or search for products to buy.',
+          'One of the main features of the application is the ability to directly contact the advertisement owner via WhatsApp to complete the purchase. This streamlines communication between buyers and sellers, making the process faster and more efficient.',
+          'Users also have the ability to manage their own advertisements. They will be able to edit advertisement information if necessary to update details or prices. Additionally, they will have the option to deactivate advertisements when the products are sold, keeping the platform up-to-date and free of no longer available ads.'
         ],
-        technologies: ['React Native', 'Expo', 'TypeScript', 'NativeBase'],
+        technologies: [
+          'React Native',
+          'Expo',
+          'TypeScript',
+          'NativeBase',
+          'React Navigation',
+          'Axios',
+          'expo ImagePicker',
+          'React Hook Form',
+          'Yup',
+          'AsyncStorage',
+          'Phosphor Icons',
+          'React Native Modalize',
+          'React Native Portalize',
+          'React Native Reanimated Carousel'
+        ],
         url: 'https://github.com/VagnerNerves/marketspace-ignitern',
         urlVideo: 'https://www.youtube.com/watch?v=_sWtr9fkO0s'
       },
