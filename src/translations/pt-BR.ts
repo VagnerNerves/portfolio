@@ -159,7 +159,7 @@ export const ptBRTranslation: translationsProps = {
           'date-fns'
         ],
         url: 'https://github.com/VagnerNerves/dailydiet-ignitern',
-        urlVideo: 'https://www.youtube.com/watch?v=1mUJAjoLm2I'
+        urlVideo: 'https://vimeo.com/873297373'
       },
 
       {
@@ -181,7 +181,7 @@ export const ptBRTranslation: translationsProps = {
           'AsyncStorage'
         ],
         url: 'https://github.com/VagnerNerves/igniteteams',
-        urlVideo: 'https://www.youtube.com/watch?v=VRBiB3Gx4E4'
+        urlVideo: 'https://vimeo.com/873298649'
       },
 
       {
@@ -201,7 +201,7 @@ export const ptBRTranslation: translationsProps = {
           'PhosPhor Icons'
         ],
         url: 'https://github.com/VagnerNerves/calculator-boracodar',
-        urlVideo: 'https://www.youtube.com/watch?v=fzL4oPdMjeE'
+        urlVideo: 'https://vimeo.com/873300070'
       }
     ]
   },
