@@ -106,7 +106,7 @@ export const enTranslation: translationsProps = {
           'React Native Reanimated Carousel'
         ],
         url: 'https://github.com/VagnerNerves/marketspace-ignitern',
-        urlVideo: 'https://www.youtube.com/watch?v=_sWtr9fkO0s'
+        urlVideo: 'https://vimeo.com/873287928'
       },
 
       {
@@ -131,7 +131,7 @@ export const enTranslation: translationsProps = {
           'AsyncStorage'
         ],
         url: 'https://github.com/VagnerNerves/ignitegym-rn',
-        urlVideo: 'https://www.youtube.com/watch?v=kQPBkW7C-Ik'
+        urlVideo: 'https://vimeo.com/873294621'
       },
 
       {
