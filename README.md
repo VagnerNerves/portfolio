@@ -7,7 +7,7 @@
     🔗 <a href="https://www.vagnernerves.dev/">https://www.vagnernerves.dev/</a> 🔗
   </p>
 
-I developed my portfolio using React and Next.js (version 13). The project is intended to showcase my projects and experiences.
+I developed my portfolio using React and Next.js. The project is intended to showcase my projects and experiences.
 
 </p>
 
@@ -39,7 +39,7 @@ Describe what you learned and implemented in the project. -->
 
 ## 💡 Technologies Used
 
-- [x] [Next.js (version 13)](https://nextjs.org/)
+- [x] [Next.js](https://nextjs.org/)
 - [x] [React](https://reactjs.org/)
 - [x] [TypeScript](https://www.typescriptlang.org/)
 - [x] [Tailwindcss](https://tailwindcss.com/)
