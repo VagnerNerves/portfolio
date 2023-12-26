@@ -2,9 +2,9 @@ import { translationsProps } from './types'
 
 export const ptBRTranslation: translationsProps = {
   name: 'Vagner Nerves',
-  titlePage: 'Vagner Nerves - Portifólio',
+  titlePage: 'Vagner Nerves - Portfólio',
   descriptionPage:
-    'Portifólio de Vagner Nerves contendo seus projetos na are de desenvolvimento de sistemas.',
+    'Portfólio de Vagner Nerves contendo seus projetos na are de desenvolvimento de sistemas.',
   urlLinks: {
     linkedin: 'https://www.linkedin.com/in/vagnernervessantos/',
     github: 'https://github.com/VagnerNerves',
@@ -150,11 +150,10 @@ export const ptBRTranslation: translationsProps = {
           'Styled Components',
           'Phosphor Icons',
           'React Navigation',
-          'React Navitive SVG',
-          'React Navitive SVG Transformer',
-          'React Navitive UUID',
-          'React Navitive Modal Datetime Picker',
-          'React Navitive Modal Datetime Picker',
+          'React Native SVG',
+          'React Native SVG Transformer',
+          'React Native UUID',
+          'React Native Modal Datetime Picker',
           'AsyncStorage',
           'date-fns'
         ],
@@ -186,7 +185,7 @@ export const ptBRTranslation: translationsProps = {
 
       {
         title: 'Calculator',
-        date: '(Fevereirio 2023 - Fevereiro 2023)',
+        date: '(Fevereiro 2023 - Fevereiro 2023)',
         description: [
           'O projeto Calculator foi desenvolvido em React Native com Expo e é uma aplicação móvel que oferece uma calculadora completa com uma variedade de funções de cálculos e mantém um histórico das operações realizadas.',
           'É uma ferramenta útil para cálculos matemáticos rápidos e convenientes.'
