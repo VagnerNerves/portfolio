@@ -162,6 +162,26 @@ export const ptBRTranslation: translationsProps = {
       },
 
       {
+        title: 'Calculator',
+        date: '(Fevereiro 2023 - Fevereiro 2023)',
+        description: [
+          'O projeto Calculator foi desenvolvido em React Native com Expo e é uma aplicação móvel que oferece uma calculadora completa com uma variedade de funções de cálculos e mantém um histórico das operações realizadas.',
+          'É uma ferramenta útil para cálculos matemáticos rápidos e convenientes.'
+        ],
+        technologies: [
+          'React Native',
+          'Expo',
+          'TypeScript',
+          'Styled Components',
+          'React Native SVG',
+          'React Native SVG Transformer',
+          'PhosPhor Icons'
+        ],
+        url: 'https://github.com/VagnerNerves/calculator-boracodar',
+        urlVideo: 'https://vimeo.com/873300070'
+      },
+
+      {
         title: 'Ignite Teams',
         date: '(Janeiro 2023 - Fevereiro 2023)',
         description: [
@@ -181,26 +201,6 @@ export const ptBRTranslation: translationsProps = {
         ],
         url: 'https://github.com/VagnerNerves/igniteteams',
         urlVideo: 'https://vimeo.com/873298649'
-      },
-
-      {
-        title: 'Calculator',
-        date: '(Fevereiro 2023 - Fevereiro 2023)',
-        description: [
-          'O projeto Calculator foi desenvolvido em React Native com Expo e é uma aplicação móvel que oferece uma calculadora completa com uma variedade de funções de cálculos e mantém um histórico das operações realizadas.',
-          'É uma ferramenta útil para cálculos matemáticos rápidos e convenientes.'
-        ],
-        technologies: [
-          'React Native',
-          'Expo',
-          'TypeScript',
-          'Styled Components',
-          'React Native SVG',
-          'React Native SVG Transformer',
-          'PhosPhor Icons'
-        ],
-        url: 'https://github.com/VagnerNerves/calculator-boracodar',
-        urlVideo: 'https://vimeo.com/873300070'
       }
     ]
   },
