@@ -7,9 +7,9 @@ const inter = Inter({ subsets: ['latin'] })
 import { TranslationContextProvider } from '@/contexts/TranslationContext'
 
 export const metadata: Metadata = {
-  title: 'Vagner Nerves - Portifólio',
+  title: 'Vagner Nerves - Portfólio',
   description:
-    'Portifólio de Vagner Nerves contendo seus projetos na are de desenvolvimento de sistemas.'
+    'Portfólio de Vagner Nerves contendo seus projetos na are de desenvolvimento de sistemas.'
 }
 
 export default function RootLayout({
