@@ -82,6 +82,27 @@ export const enTranslation: translationsProps = {
     titleButtonProject: 'Access the Project',
     projects: [
       {
+        title: 'Project App The Hunter Games the Ballad of Songbirds e Snakes',
+        date: '(November 2023 - December 2023)',
+        description: [
+          'The project is developed in React Native with Expo, and it is an app for information about the movie "The Hunter Games the Ballad of Songbirds e Snakes".',
+          'It contains comprehensive details about the film and characters, provides access to trailers, and also includes information about the actors.'
+        ],
+        technologies: [
+          'React Native',
+          'Expo',
+          'TypeScript',
+          'NativeWind',
+          'React Navigation',
+          'Phosphor Icons',
+          'Expo LinearGradient',
+          'Safe Area Context'
+        ],
+        url: 'https://github.com/VagnerNerves/app-the-hunter-games-the-ballad-of-songbirds-e-snakes',
+        urlVideo: 'https://vimeo.com/899039473'
+      },
+
+      {
         title: 'Marketspace',
         date: '(July 2023 - October 2023)',
         description: [

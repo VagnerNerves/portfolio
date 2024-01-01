@@ -82,6 +82,27 @@ export const ptBRTranslation: translationsProps = {
     titleButtonProject: 'Acesse o Projeto',
     projects: [
       {
+        title: 'Project App The Hunter Games the Ballad of Songbirds e Snakes',
+        date: '(Novembro 2023 - Dezembro 2023)',
+        description: [
+          'O projeto é desenvolvido em React Native com Expo e é um aplicativo de informações sobre o filme "Jogos Vorazes: A Balada dos Pássaros Cantores e Cobras".',
+          'Ele contém detalhes abrangentes sobre o filme e personagens, oferece acesso a trailers e também inclui informações sobre os atores.'
+        ],
+        technologies: [
+          'React Native',
+          'Expo',
+          'TypeScript',
+          'NativeWind',
+          'React Navigation',
+          'Phosphor Icons',
+          'Expo LinearGradient',
+          'Safe Area Context'
+        ],
+        url: 'https://github.com/VagnerNerves/app-the-hunter-games-the-ballad-of-songbirds-e-snakes',
+        urlVideo: 'https://vimeo.com/899039473'
+      },
+
+      {
         title: 'Marketspace',
         date: '(Julho 2023 - Outubro 2023)',
         description: [
