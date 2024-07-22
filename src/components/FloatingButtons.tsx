@@ -11,7 +11,7 @@ export function FloatingButtons() {
   const translation = t()
 
   function handleAlterLanguage() {
-    saveLanguage(language === 'pt-BR' ? 'en' : 'pt-BR')
+    saveLanguage(language === 'pt-br' ? 'en' : 'pt-br')
   }
 
   return (
@@ -21,7 +21,7 @@ export function FloatingButtons() {
       className="z-20 fixed bottom-[100px] sm:bottom-9 right-3 sm:right-9 w-8 h-8 rounded-full bg-zinc-950 border border-zinc-800 text-zinc-500 font-semibold text-base flex justify-center items-center text-center hover:text-zinc-400 hover:border-zinc-700"
     >
       <Image
-        src={language === 'pt-BR' ? flagUsPng : flagBrazilPng}
+        src={language === 'pt-br' ? flagUsPng : flagBrazilPng}
         alt={translation.floatingButtons.altImageTranslate}
         width={28}
         className="filter grayscale hover:grayscale-0"

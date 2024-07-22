@@ -37,7 +37,7 @@ export function TranslationContextProvider({
     switch (language) {
       case 'en':
         return enTranslation
-      case 'pt-BR':
+      case 'pt-br':
         return ptBRTranslation
       default:
         return enTranslation
@@ -45,8 +45,9 @@ export function TranslationContextProvider({
   }
 
   function searchNavigationLanguage() {
-    navigator.language === 'pt-BR' || navigator.language.startsWith('pt')
-      ? setLanguage('pt-BR')
+    navigator.language.toLowerCase() === 'pt-br' ||
+    navigator.language.startsWith('pt')
+      ? setLanguage('pt-br')
       : setLanguage('en')
   }
 
@@ -60,6 +61,8 @@ export function TranslationContextProvider({
       if (metaDescription) {
         metaDescription.setAttribute('content', translation.descriptionPage)
       }
+
+      document.documentElement.setAttribute('lang', language)
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [language])

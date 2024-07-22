@@ -34,7 +34,7 @@ export function SectionHome() {
             <div className="inline-block p-2 bg-blue-950 rounded">
               <div className="flex items-center gap-2 text-blue-500">
                 <CodeBlock weight="bold" size={28} className="fill-blue-500" />
-                {language === 'pt-BR' ? (
+                {language === 'pt-br' ? (
                   <>
                     <p>{translation.sectionHome.text3}</p>
                     <TypewriterText text={translation.sectionHome.skills} />

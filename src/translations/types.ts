@@ -1,5 +1,5 @@
-export type languageTypes = 'en' | 'pt-BR'
-export const languagesSupported: languageTypes[] = ['en', 'pt-BR']
+export type languageTypes = 'en' | 'pt-br'
+export const languagesSupported: languageTypes[] = ['en', 'pt-br']
 
 export type translationsProps = {
   name: string
