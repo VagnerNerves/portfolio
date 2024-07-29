@@ -32,7 +32,7 @@ export function Project({
     group-hover/project:bg-dashed group-hover/project:bg-cover "
         />
         <h3 className="font-bold text-xl text-zinc-50 leading-8">{title}</h3>
-        <p className="font-normal text-xs text-zinc-400 leading-8">{date}</p>
+        {/* <p className="font-normal text-xs text-zinc-400 leading-8">{date}</p> */}
         <div className="font-normal text-base text-zinc-400 group-hover/project:text-zinc-300 leading-8 space-y-5">
           {description.map((value, index) => (
             <p key={index}>{value}</p>
