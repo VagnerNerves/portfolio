@@ -6,6 +6,7 @@ export function Footer() {
   const { t } = useTranslation()
   const translation = t()
 
+  const initialYear = '2023'
   const currentYear = new Date().getFullYear()
 
   return (
@@ -24,7 +25,7 @@ export function Footer() {
           </div>
         </div>
         <p className="font-normal text-sm text-zinc-400">
-          {translation.footer.copyright} © {currentYear}.{' '}
+          {translation.footer.copyright} © {initialYear} - {currentYear}.{' '}
           {translation.footer.descriptionCopyright}
         </p>
       </div>
