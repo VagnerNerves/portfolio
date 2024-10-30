@@ -1,9 +1,9 @@
 import Link from 'next/link'
 
-import { GithubLogo } from '@/assets/icons/PhosphorIcons'
+import { GithubLogo, Globe } from '@/assets/icons/PhosphorIcons'
 
 interface ButtonProps {
-  typeIcon: 'github'
+  typeIcon: 'github' | 'globe'
   title: string
   url: string
 }
@@ -17,6 +17,14 @@ export function ButtonLink({ typeIcon, title, url }: ButtonProps) {
       >
         {typeIcon === 'github' && (
           <GithubLogo
+            weight="bold"
+            size={16}
+            className="fill-zinc-400 group-hover/link:fill-zinc-300"
+          />
+        )}
+
+        {typeIcon === 'globe' && (
+          <Globe
             weight="bold"
             size={16}
             className="fill-zinc-400 group-hover/link:fill-zinc-300"
