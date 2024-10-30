@@ -18,17 +18,22 @@ export function SectionProjects() {
         <SubTitle title={translation.sectionProjects.title} />
         <div className="w-full flex flex-1">
           <div className="border-l border-blue-800 pl-10 flex flex-1 flex-col">
-            {translation.sectionProjects.projects.map((value, index) => (
-              <Project
-                key={index}
-                title={value.title}
-                date={value.date}
-                description={value.description}
-                technologies={value.technologies}
-                url={value.url}
-                urlVideo={value.urlVideo}
-              />
-            ))}
+            {translation.sectionProjects.projects.map((value, index) => {
+              console.log(value.titleButtonProject)
+              return (
+                <Project
+                  key={index}
+                  title={value.title}
+                  date={value.date}
+                  description={value.description}
+                  technologies={value.technologies}
+                  url={value.url}
+                  urlWebsite={value.urlWebsite}
+                  urlVideo={value.urlVideo}
+                  titleButtonProject={value.titleButtonProject}
+                />
+              )
+            })}
           </div>
         </div>
       </div>

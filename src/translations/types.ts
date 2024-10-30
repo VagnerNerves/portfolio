@@ -46,8 +46,10 @@ export type translationsProps = {
       date: string
       description: string[]
       technologies: string[]
-      url: string
-      urlVideo: string
+      url?: string
+      urlWebsite?: string
+      urlVideo?: string
+      titleButtonProject?: string
     }[]
   }
   sectionContact: {

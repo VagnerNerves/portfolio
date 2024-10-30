@@ -10,8 +10,10 @@ interface ProjectProps {
   date: string
   description: string[]
   technologies: string[]
-  url: string
-  urlVideo: string
+  url?: string
+  urlWebsite?: string
+  urlVideo?: string
+  titleButtonProject?: string
 }
 export function Project({
   title,
@@ -19,10 +21,16 @@ export function Project({
   description,
   technologies,
   url,
-  urlVideo
+  urlWebsite,
+  urlVideo,
+  titleButtonProject
 }: ProjectProps) {
   const { t } = useTranslation()
   const translation = t()
+
+  const titleButtonProjectHere = titleButtonProject
+    ? titleButtonProject
+    : translation.sectionProjects.titleButtonProject
 
   return (
     <div className="group/project py-12 flex flex-col lg:flex-row flex-1 gap-9">
@@ -45,11 +53,21 @@ export function Project({
             {technologies.join(' · ')}
           </p>
 
-          <ButtonLink
-            typeIcon="github"
-            title={translation.sectionProjects.titleButtonProject}
-            url={url}
-          />
+          {url && (
+            <ButtonLink
+              typeIcon="github"
+              title={titleButtonProjectHere}
+              url={url}
+            />
+          )}
+
+          {urlWebsite && (
+            <ButtonLink
+              typeIcon="globe"
+              title={titleButtonProjectHere}
+              url={urlWebsite}
+            />
+          )}
         </div>
       </div>
       {urlVideo && (

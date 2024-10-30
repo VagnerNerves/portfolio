@@ -82,6 +82,48 @@ export const ptBRTranslation: translationsProps = {
     titleButtonProject: 'Acesse o Projeto',
     projects: [
       {
+        title: 'euTreino (App Mobile, Web, Backend)',
+        date: '(Janeiro 2024 - Atualmente)',
+        description: [
+          'O euTreino é um aplicativo desenvolvido em React Native com Expo, criado para auxiliar os usuários a personalizar e gerenciar seus treinos conforme suas necessidades. O app permite que os usuários marquem treinos como realizados, acompanhem seu progresso e acessem um histórico completo de atividades, facilitando o monitoramento do desempenho ao longo do tempo.',
+          'Uma das principais funcionalidades do euTreino é a possibilidade de adicionar anotações detalhadas a cada exercício, permitindo o registro de insights valiosos que contribuem para a melhoria da performance física. Com uma interface intuitiva e fácil de usar, o aplicativo centraliza todas as informações de treino em um só lugar.',
+          'O aplicativo conta com integração a um backend em Node.js utilizando Fastify, com gerenciamento de dados feito por Prisma e banco de dados PostgreSQL.',
+          'Todo o design, tanto do aplicativo mobile quanto do site, foi cuidadosamente desenvolvido no Figma, garantindo uma experiência visual coesa e agradável.',
+          'O euTreino está disponível para download na Google Play e na Apple Store.'
+        ],
+        technologies: [
+          'React Native',
+          'Expo',
+          'TypeScript',
+          'Expo Router',
+          'Axios',
+          'Expo ImagePicker',
+          'React Hook Form',
+          'Zod',
+          'AsyncStorage',
+          'Phosphor Icons',
+          'Zustand',
+          'FlashList',
+          'date-fns',
+          'React Native Draggable FlatList',
+          'React Native Gesture Handler',
+          'React Native Reanimated',
+          'Jest',
+          'React Native Testing Library',
+          'React.js',
+          'Next.js',
+          'TailwindCSS',
+          'Swiper',
+          'Node.js',
+          'Fastify',
+          'Prisma',
+          'PostgreSQL'
+        ],
+        urlWebsite: 'https://www.eutreino.com/',
+        titleButtonProject: 'Acesse o Site - euTreino'
+      },
+
+      {
         title: 'Project App The Hunter Games the Ballad of Songbirds e Snakes',
         date: '(Novembro 2023 - Dezembro 2023)',
         description: [
@@ -130,30 +172,30 @@ export const ptBRTranslation: translationsProps = {
         urlVideo: 'https://vimeo.com/873287928'
       },
 
-      {
-        title: 'Ignite Gym',
-        date: '(Junho 2023 - Junho 2023)',
-        description: [
-          'O projeto Ignite Gim foi desenvolvido em React Native e é um aplicativo voltado para fitness que oferece recursos de registro de usuários, rastreamento de  exercícios e histórico de execução.',
-          'Nele foi criado as seguintes telas: Tela de Login, Tela de Registro, Tela Principal, Histórico de Treino, Tela de  Edição Perfil.',
-          'Essas telas proporcionam uma experiência abrangente para os usuários do aplicativo Ignite Gim, permitindo que eles façam login, se registrem, realizem exercícios, acompanhem seu progresso e gerenciem suas informações pessoais.'
-        ],
-        technologies: [
-          'React Native',
-          'Expo',
-          'TypeScript',
-          'NativeBase',
-          'React Navigation',
-          'Axios',
-          'Expo ImagePicker',
-          'Expo FileSystem',
-          'React Hook Form',
-          'Yup',
-          'AsyncStorage'
-        ],
-        url: 'https://github.com/VagnerNerves/ignitegym-rn',
-        urlVideo: 'https://vimeo.com/873294621'
-      },
+      // {
+      //   title: 'Ignite Gym',
+      //   date: '(Junho 2023 - Junho 2023)',
+      //   description: [
+      //     'O projeto Ignite Gim foi desenvolvido em React Native e é um aplicativo voltado para fitness que oferece recursos de registro de usuários, rastreamento de  exercícios e histórico de execução.',
+      //     'Nele foi criado as seguintes telas: Tela de Login, Tela de Registro, Tela Principal, Histórico de Treino, Tela de  Edição Perfil.',
+      //     'Essas telas proporcionam uma experiência abrangente para os usuários do aplicativo Ignite Gim, permitindo que eles façam login, se registrem, realizem exercícios, acompanhem seu progresso e gerenciem suas informações pessoais.'
+      //   ],
+      //   technologies: [
+      //     'React Native',
+      //     'Expo',
+      //     'TypeScript',
+      //     'NativeBase',
+      //     'React Navigation',
+      //     'Axios',
+      //     'Expo ImagePicker',
+      //     'Expo FileSystem',
+      //     'React Hook Form',
+      //     'Yup',
+      //     'AsyncStorage'
+      //   ],
+      //   url: 'https://github.com/VagnerNerves/ignitegym-rn',
+      //   urlVideo: 'https://vimeo.com/873294621'
+      // },
 
       {
         title: 'Daily Diet',
@@ -200,29 +242,29 @@ export const ptBRTranslation: translationsProps = {
         ],
         url: 'https://github.com/VagnerNerves/calculator-boracodar',
         urlVideo: 'https://vimeo.com/873300070'
-      },
-
-      {
-        title: 'Ignite Teams',
-        date: '(Janeiro 2023 - Fevereiro 2023)',
-        description: [
-          'O projeto Ignite Teams é um aplicativo desenvolvido em React Native que tem como objetivo facilitar o gerenciamento de turmas, times e pessoas. Com uma interface amigável e intuitiva, o aplicativo permite o cadastro de turmas, dentro das quais é possível criar e gerenciar times compostos por membros.',
-          'O aplicativo possui validações inteligentes para evitar duplicações, garantindo uma organização eficiente.',
-          'É ideal para educadores, líderes de equipe ou qualquer pessoa que precise gerenciar grupos e membros de forma prática e segura.'
-        ],
-        technologies: [
-          'React Native',
-          'Expo',
-          'TypeScript',
-          'PhosPhor Icons',
-          'Styled Components',
-          'SafeAreaContext',
-          'React Navigation',
-          'AsyncStorage'
-        ],
-        url: 'https://github.com/VagnerNerves/igniteteams',
-        urlVideo: 'https://vimeo.com/873298649'
       }
+
+      // {
+      //   title: 'Ignite Teams',
+      //   date: '(Janeiro 2023 - Fevereiro 2023)',
+      //   description: [
+      //     'O projeto Ignite Teams é um aplicativo desenvolvido em React Native que tem como objetivo facilitar o gerenciamento de turmas, times e pessoas. Com uma interface amigável e intuitiva, o aplicativo permite o cadastro de turmas, dentro das quais é possível criar e gerenciar times compostos por membros.',
+      //     'O aplicativo possui validações inteligentes para evitar duplicações, garantindo uma organização eficiente.',
+      //     'É ideal para educadores, líderes de equipe ou qualquer pessoa que precise gerenciar grupos e membros de forma prática e segura.'
+      //   ],
+      //   technologies: [
+      //     'React Native',
+      //     'Expo',
+      //     'TypeScript',
+      //     'PhosPhor Icons',
+      //     'Styled Components',
+      //     'SafeAreaContext',
+      //     'React Navigation',
+      //     'AsyncStorage'
+      //   ],
+      //   url: 'https://github.com/VagnerNerves/igniteteams',
+      //   urlVideo: 'https://vimeo.com/873298649'
+      // }
     ]
   },
   sectionContact: {
