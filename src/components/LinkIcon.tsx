@@ -7,7 +7,12 @@ interface LinkIconProps {
 }
 export function LinkIcon({ href, typeIcons }: LinkIconProps) {
   return (
-    <Link href={href} target="_blank">
+    <Link
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={`Acesse o ${typeIcons} do Vagner Nerves`}
+    >
       {typeIcons === 'linkedin' && (
         <LinkedinLogo
           weight="bold"
