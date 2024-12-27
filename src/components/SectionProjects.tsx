@@ -19,7 +19,6 @@ export function SectionProjects() {
         <div className="w-full flex flex-1">
           <div className="border-l border-blue-800 pl-10 flex flex-1 flex-col">
             {translation.sectionProjects.projects.map((value, index) => {
-              console.log(value.titleButtonProject)
               return (
                 <Project
                   key={index}
