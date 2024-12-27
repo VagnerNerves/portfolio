@@ -1,6 +1,7 @@
 'use client'
+
 import { HtmlHTMLAttributes } from 'react'
-import Typewriter from 'typewriter-effect'
+import { Typewriter } from 'react-simple-typewriter'
 
 interface TypewriterTextProps {
   text: string[]
@@ -9,20 +10,7 @@ interface TypewriterTextProps {
 export function TypewriterText({ text, divProps }: TypewriterTextProps) {
   return (
     <div {...divProps}>
-      <Typewriter
-        onInit={typewriter => {
-          text.map(data => {
-            typewriter.typeString(data).pauseFor(10000).deleteAll()
-          })
-
-          typewriter.start()
-        }}
-        options={{
-          // strings: text,
-          autoStart: true,
-          loop: true
-        }}
-      />
+      <Typewriter words={text} cursor loop={false} delaySpeed={10000} />
     </div>
   )
 }
