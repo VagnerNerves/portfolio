@@ -23,27 +23,27 @@ export function SectionHome() {
         <div className="flex flex-col flex-1 justify-center items-center ">
           <div className="font-medium lg:font-normal text-xl sm:text-xl lg:text-4xl leading-10 sm:leading-10 lg:leading-15 text-zinc-50">
             <p>{translation.sectionHome.text1}</p>
-            <p className="mr-14">
+            <h1 className="mr-14">
               {translation.sectionHome.text2}{' '}
               <span className="font-bold lg:font-medium">
                 {translation.name}
               </span>
               ,
-            </p>
+            </h1>
 
             <div className="inline-block p-2 bg-blue-950 rounded">
               <div className="flex items-center gap-2 text-blue-500">
                 <CodeBlock weight="bold" size={28} className="fill-blue-500" />
                 {language === 'pt-br' ? (
-                  <>
-                    <p>{translation.sectionHome.text3}</p>
+                  <p>
+                    {translation.sectionHome.text3}{' '}
                     <TypewriterText text={translation.sectionHome.skills} />
-                  </>
+                  </p>
                 ) : (
-                  <>
-                    <TypewriterText text={translation.sectionHome.skills} />
-                    <p>{translation.sectionHome.text3}</p>
-                  </>
+                  <p>
+                    <TypewriterText text={translation.sectionHome.skills} />{' '}
+                    {translation.sectionHome.text3}
+                  </p>
                 )}
               </div>
             </div>
