@@ -13,7 +13,7 @@ export function ButtonLink({ typeIcon, title, url }: ButtonProps) {
       <Link
         href={url}
         target="_blank"
-        className="group/link px-4 py-2 flex justify-center items-center gap-2 bg-zinc-950 rounded border border-zinc-800 hover:border-zinc-700 "
+        className="group/link px-4 py-2 flex justify-center items-center gap-2 bg-zinc-950 rounded-sm border border-zinc-800 hover:border-zinc-700 "
       >
         {typeIcon === 'github' && (
           <GithubLogo

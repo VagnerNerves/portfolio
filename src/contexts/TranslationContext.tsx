@@ -45,10 +45,11 @@ export function TranslationContextProvider({
   }
 
   function searchNavigationLanguage() {
-    navigator.language.toLowerCase() === 'pt-br' ||
-    navigator.language.startsWith('pt')
-      ? setLanguage('pt-br')
-      : setLanguage('en')
+    const isLanguagePt =
+      navigator.language.toLowerCase() === 'pt-br' ||
+      navigator.language.startsWith('pt')
+
+    setLanguage(isLanguagePt ? 'pt-br' : 'en')
   }
 
   useEffect(() => {
@@ -70,9 +71,11 @@ export function TranslationContextProvider({
   useEffect(() => {
     const languageStorage = languageGet() as languageTypes
 
-    !!languageStorage
-      ? setLanguage(languageStorage)
-      : searchNavigationLanguage()
+    if (languageStorage) {
+      setLanguage(languageStorage)
+    } else {
+      searchNavigationLanguage()
+    }
   }, [])
 
   return (

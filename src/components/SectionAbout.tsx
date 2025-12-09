@@ -22,7 +22,7 @@ export function SectionAbout() {
               {data.span !== '' && (
                 <span
                   data-type={data.typeSpan}
-                  className="font-bold bg-clip-text text-transparent bg-gradient-to-r data-[type='1']:from-blue-300 data-[type='1']:to-blue-500 data-[type='2']:from-blue-500 data-[type='2']:to-blue-300"
+                  className="font-bold bg-clip-text text-transparent bg-linear-to-r data-[type='1']:from-blue-300 data-[type='1']:to-blue-500 data-[type='2']:from-blue-500 data-[type='2']:to-blue-300"
                 >
                   {data.span}
                 </span>

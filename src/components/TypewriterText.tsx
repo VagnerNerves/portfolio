@@ -1,6 +1,5 @@
 'use client'
 
-import { HtmlHTMLAttributes } from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 
 interface TypewriterTextProps {

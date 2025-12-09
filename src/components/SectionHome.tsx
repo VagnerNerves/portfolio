@@ -31,7 +31,7 @@ export function SectionHome() {
               ,
             </h1>
 
-            <div className="inline-block p-2 bg-blue-950 rounded">
+            <div className="inline-block p-2 bg-blue-950 rounded-sm">
               <div className="flex items-center gap-2 text-blue-500">
                 <CodeBlock weight="bold" size={28} className="fill-blue-500" />
                 {language === 'pt-br' ? (

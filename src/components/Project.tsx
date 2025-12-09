@@ -17,7 +17,7 @@ interface ProjectProps {
 }
 export function Project({
   title,
-  date,
+  // date,
   description,
   technologies,
   url,
