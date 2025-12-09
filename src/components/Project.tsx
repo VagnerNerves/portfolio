@@ -73,7 +73,7 @@ export function Project({
       {urlVideo && (
         <div className="sm:min-w-[300px] flex items-center justify-center overflow-hidden">
           <div className="sm:w-[320px] sm:h-[570px] w-[269px] h-[519px] rounded-2xl overflow-hidden">
-            <ReactPlayer url={urlVideo} width="100%" height="100%" controls />
+            <ReactPlayer src={urlVideo} width="100%" height="100%" controls />
           </div>
         </div>
       )}
